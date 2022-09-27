@@ -18,7 +18,10 @@
     <li> AS4_Part2_Sol_7.c
     <li> AS4_Part2_Sol_8.c
     <li> AS4_Part2_Sol_9.c
-    <li> More solutions coming soon!
+    <li> AS4_Part2_Sol_10.c
+    <li> AS4_Part2_Sol_11.c
+    <li> AS4_Part2_Sol_12.c
+    <li> AS4_Part2_Sol_13.c
     </ul>
 </ul>
 <br>
