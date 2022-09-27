@@ -3,6 +3,8 @@
 <ul>
 <li>Programming Solutions ของ Assignment 3 
     <ul>
+    <li> AS2_Sol_11.sh
+    <li> AS2_Sol_12.sh
     <li> AS2_Sol_13.sh
     </ul>
 <li>Programming Solutions ของ Assignment 3 
