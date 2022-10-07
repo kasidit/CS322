@@ -1,6 +1,7 @@
 # CS322
 เนื้อหาในปัจจุบันประกอบไปด้วย 
 <ul>
+<li>ไดเรกทอรี่ pthread ประกอบไปด้วยตัวอย่างโปรแกรมที่อธิบายในห้องเรียน
 <li>Programming Solutions ของ Assignment 3 
     <ul>
     <li> AS2_Sol_11.sh
