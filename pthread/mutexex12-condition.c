@@ -50,8 +50,8 @@ int main(void){
    pthread_create(&ntid[0], NULL, foo, NULL);  
    pthread_create(&ntid[1], NULL, bar, NULL);  
 
-   pthread_join(ntid[0], tret); 
-   pthread_join(ntid[1], tret); 
+   pthread_join(ntid[0], NULL); 
+   pthread_join(ntid[1], NULL); 
 
    pthread_cond_destroy(&cv); 
    pthread_mutex_destroy(&mutex_var); 

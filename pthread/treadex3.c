@@ -16,7 +16,7 @@ int main(void){
    mtid = pthread_self(); 
    pthread_create(&ntid, NULL, foo, NULL);  
 
-   pthread_join(ntid, tret); 
+   pthread_join(ntid, &tret); 
    printf("main thread id = %lu foo thread id = %lu\n", 
                                     (unsigned long) mtid, 
                                     (unsigned long) ntid);

@@ -28,7 +28,7 @@ int main(void){
    pthread_detach(ntid); 
    printf("main thread do something \n"); 
 
-   //pthread_join(ntid, tret); 
+   //pthread_join(ntid, &tret); 
    printf("main thread wait here...\n"); 
    pthread_mutex_lock(&mutex_var); 
    pthread_mutex_unlock(&mutex_var); 

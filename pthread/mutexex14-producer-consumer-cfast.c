@@ -107,8 +107,8 @@ int main(void){
    pthread_create(&ntid[0], NULL, producer, (void *)1);  
    pthread_create(&ntid[1], NULL, consumer, NULL);  
 
-   pthread_join(ntid[0], tret); 
-   pthread_join(ntid[1], tret); 
+   pthread_join(ntid[0], &tret); 
+   pthread_join(ntid[1], &tret); 
 
    pthread_cond_destroy(&not_full); 
    pthread_cond_destroy(&not_empty); 

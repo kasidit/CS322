@@ -36,6 +36,6 @@ int main(void){
    printf("main() update global_var to %d\n", global_var); 
    pthread_mutex_unlock(&mutex_var);  
 
-   pthread_join(ntid, tret); 
+   pthread_join(ntid, &tret); 
 
 }
