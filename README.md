@@ -1,6 +1,7 @@
 # CS322
 เนื้อหาในปัจจุบันประกอบไปด้วย 
 <ul>
+<li>ไดเรกทอรี่ socket ประกอบไปด้วยตัวอย่างโปรแกรมในหัวข้อ TCP socket programming
 <li>ไดเรกทอรี่ pthread ประกอบไปด้วยตัวอย่างโปรแกรมที่อธิบายในห้องเรียน
 <li>Programming Solutions ของ Assignment 3 
     <ul>
