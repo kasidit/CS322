@@ -27,7 +27,7 @@ void * foo(void * arg){
 }
 
 void * bar(void * arg){
-   //sleep(1);
+   sleep(3);
    pthread_mutex_lock(&mutex_var);  
    count ++;
    printf("bar() update count to %d\n", count); 
@@ -37,27 +37,21 @@ void * bar(void * arg){
    pthread_exit((void *)NULL); 
 }
 
-#define NUM_THREADS 4
+#define NUM_THREADS 2
 
 int main(void){
 
-   pthread_t footid[NUM_THREADS];
-   pthread_t bartid[NUM_THREADS];
+   pthread_t ntid[NUM_THREADS];
    void *tret; 
-   int i; 
     
    pthread_mutex_init(&mutex_var, NULL); 
    pthread_cond_init(&cv, NULL); 
 
-   for(i=0; i < NUM_THREADS; i++){
-     pthread_create(&footid[i], NULL, foo, NULL);  
-     pthread_create(&bartid[i], NULL, bar, NULL);  
-   }
+   pthread_create(&ntid[0], NULL, foo, NULL);  
+   pthread_create(&ntid[1], NULL, bar, NULL);  
 
-   for(i=0; i < NUM_THREADS; i++){
-     pthread_join(footid[i], NULL); 
-     pthread_join(bartid[i], NULL); 
-   }
+   pthread_join(ntid[0], NULL); 
+   pthread_join(ntid[1], NULL); 
 
    pthread_cond_destroy(&cv); 
    pthread_mutex_destroy(&mutex_var); 

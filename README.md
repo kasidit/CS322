@@ -31,6 +31,20 @@
     <li> AS4_Part2_Sol_12.c
     <li> AS4_Part2_Sol_13.c
     </ul>
+<li>Programming Solutions ของAssignment 5 
+    <ul>
+    <li>AS5_Sol_1.c
+    <li>AS5_Sol_2.c  
+    <li>AS5_Sol_4.c  
+    <li>AS5_Sol_6.c
+    </ul>
+<li>Programming Solutions ของAssignment 6
+    <ul>
+    <li>AS6_Sol_1.c  
+    <li>AS6_Sol_4.c  
+    <li>AS6_Sol_6.c  
+    <li>AS6_Sol_8.c 
+    </ul>
 </ul>
 <br>
 หมายเหตุ: สำหรับคำตอบของคำถามภาค ทฤษฎี ขอให้ นศ ดูได้จาก Slide และ วิดิโอ
