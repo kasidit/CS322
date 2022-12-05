@@ -45,6 +45,11 @@
     <li>AS6_Sol_6.c  
     <li>AS6_Sol_8.c 
     </ul>
+<li>Programming Solutions ของAssignment 7
+    <ul>
+    <li>AS7_Sol_2_cli.c  
+    <li>AS7_Sol_2_serv1.c  
+    <li>AS7_Sol_2_serv2.c  
 </ul>
 <br>
 หมายเหตุ: สำหรับคำตอบของคำถามภาค ทฤษฎี ขอให้ นศ ดูได้จาก Slide และ วิดิโอ
